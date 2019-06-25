@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EventBindingComponent implements OnInit {
 
+  contador = 0;
+
   constructor() { }
 
   ngOnInit() {
+  }
+
+  suma() {
+    this.contador++;
   }
 
 }
